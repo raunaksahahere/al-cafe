@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #FF7A00;
+  --color-brand-secondary: #E85D04;
+  --color-brand-black: #000000;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-gold: #D4AF37;
+
+  --color-background: #000000;
+  --color-foreground: #FFFFFF;
+
+  --color-card: rgba(26, 26, 26, 0.4);
+  --color-card-foreground: #FFFFFF;
+
+  --color-popover: #1A1A1A;
+  --color-popover-foreground: #FFFFFF;
+
+  --color-primary: #FF7A00;
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #1A1A1A;
+  --color-secondary-foreground: #FFFFFF;
+
+  --color-muted: #2A2A2A;
+  --color-muted-foreground: #A0A0A0;
+
+  --color-accent: #E85D04;
+  --color-accent-foreground: #FFFFFF;
+
+  --color-destructive: #FF453A;
+  --color-destructive-foreground: #FFFFFF;
+
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-input: rgba(255, 255, 255, 0.1);
+  --color-ring: #FF7A00;
+
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+  --radius-sm: 0.5rem;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #FFFFFF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utilities */
+@utility glass {
+  background: rgba(26, 26, 26, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@utility glass-card {
+  background: linear-gradient(135deg, rgba(40, 40, 40, 0.6) 0%, rgba(20, 20, 20, 0.8) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+@utility text-glow {
+  text-shadow: 0 0 20px rgba(255, 122, 0, 0.5);
+}
+
+@utility bg-glow {
+  box-shadow: 0 0 40px rgba(255, 122, 0, 0.3);
+}
+
+/* Lenis smooth scroll */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF7A00;
+}
+
+@utility scrollbar-hide {
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+  /* Safari and Chrome */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

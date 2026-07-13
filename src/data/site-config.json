@@ -1,0 +1,48 @@
+{
+  "business": {
+    "name": "AL Cafe & Lounge",
+    "websiteUrl": "https://alcafe.online",
+    "description": "Premium coffee, multi-cuisine dining, private events, and a curated hookah lounge in Chinar Park, Kolkata.",
+    "priceRange": "₹₹",
+    "cuisines": ["Indian", "Chinese", "Cafe", "Hookah Lounge"]
+  },
+  "contact": {
+    "phoneDisplay": "+91 85829 57044",
+    "phoneE164": "+918582957044",
+    "whatsAppNumber": "918582957044",
+    "whatsAppUrl": "https://wa.me/918582957044",
+    "emails": {
+      "primary": "info@alcafe.com"
+    },
+    "address": {
+      "display": "Chinar Park, Kolkata",
+      "streetAddress": "Chinar Park",
+      "addressLocality": "Kolkata",
+      "addressRegion": "West Bengal",
+      "addressCountry": "IN",
+      "landmark": "Near Central Plaza Landmark"
+    },
+    "mapUrl": "https://maps.google.com/?q=Chinar+Park,+Kolkata",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Chinar+Park,+Kolkata&output=embed"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/"
+  },
+  "hours": [
+    {
+      "label": "Monday - Thursday",
+      "display": "11:00 AM - 1:00 AM",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "11:00",
+      "closes": "01:00"
+    },
+    {
+      "label": "Friday - Sunday",
+      "display": "11:00 AM - 2:00 AM",
+      "days": ["Friday", "Saturday", "Sunday"],
+      "opens": "11:00",
+      "closes": "02:00"
+    }
+  ]
+}

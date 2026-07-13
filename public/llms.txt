@@ -1,0 +1,14 @@
+# AL Cafe & Lounge
+
+AL Cafe & Lounge is a cafe, dining venue, and hookah lounge in Chinar Park, Kolkata, India. The venue offers Indian and Chinese food, kebabs, coffee, premium hookah flavours, and private-event enquiries.
+
+## Key pages
+
+- https://alcafe.online/ - venue overview, gallery, contact details, and booking form
+- https://alcafe.online/menu - current food menu and prices
+- https://alcafe.online/hookah-lounge - current hookah flavours and base add-ons
+- https://alcafe.online/blog - venue guides and updates
+
+## Booking
+
+Visitors can submit a table or occasion booking enquiry from the booking section on the homepage. For directions and contact details, use the homepage contact section.
