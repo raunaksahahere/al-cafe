@@ -34,7 +34,7 @@ export default function Hero() {
             Welcome To
           </span>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-2 text-white">
-            Al Café <br />
+            The Al Café <br />
             <span className="text-3xl md:text-4xl font-light italic text-white/80">Savor Food, Enjoy Hookah</span>
           </h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10 font-light tracking-wide">
