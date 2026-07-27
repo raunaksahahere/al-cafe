@@ -34,6 +34,33 @@ export default function FloatingActions() {
       <div className="w-px h-8 bg-white/10 hidden sm:block" />
 
       <Link
+        href={siteConfig.socials.instagram}
+        target="_blank"
+        rel="noreferrer"
+        className="flex h-12 w-12 items-center justify-center rounded-full bg-white/5 border border-[#FF7A00]/50 text-[#FF7A00] shadow-lg transition-transform hover:scale-110 hover:bg-[#FF7A00] hover:text-white"
+        aria-label="Instagram"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" />
+          <path d="M17.5 6.5h.01" />
+        </svg>
+      </Link>
+
+      <div className="w-px h-8 bg-white/10 hidden sm:block" />
+
+      <Link
         href={`tel:${siteConfig.contact.phoneE164}`}
         className="flex h-12 w-12 items-center justify-center rounded-full bg-white/5 border border-[#FF7A00]/50 text-[#FF7A00] shadow-lg transition-transform hover:scale-110 hover:bg-[#FF7A00] hover:text-white"
         aria-label="Call Now"
